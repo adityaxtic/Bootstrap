@@ -6,6 +6,15 @@
     <title>Bootstrap</title>
 </head>
 <body>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
     <h1>Grid</h1>
     <div class="container">
         <div class="row">
@@ -31,6 +40,41 @@
 
         <img src="images/cartoon1 (2).png" class="rounded float-start" alt="">
         <img src="images/cartoon1 (1) (1).png" class="rounded float-end" alt="">
+      </div>
+      
+      <div class="tables">
+
+        <table class="table caption-top">
+          <caption>List of users</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 </body>
 </html>
